@@ -58,24 +58,36 @@
     "skillmessage": "Technical Skills",
     "education": [
       {
-        "school": "University of Wollongong",
-        "degree": "Master of Computer Science with distinction",
-        "graduated": "2007 - 2009",
+        "school": "Monash University",
+        "degree": "Master of Infomation Technology",
+        "graduated": "Mar 2021 - Dec 2022",
         "description": ""
       },
       {
-        "school": "AWS certification",
-        "degree": "AWS Certified Solutions Architect - Professional",
-        "graduated": "Dec 2021",
+        "school": "Northeast Electric Power University",
+        "degree": "Bachelor of Information and Computing Science",
+        "graduated": "Sep 2016 - Jun 2020",
+        "description": ""
+      },
+      {
+        "school": "Scrum Certification",
+        "degree": "Scrum Fundamentals Certified (SFC™) Certification",
+        "graduated": "Aug 2023",
         "description": ""
       }
     ],
     "work": [
       {
-        "company": "Cyberlark Studio",
-        "title": "Founder",
-        "years": "Augest 2005 - Present",
-        "description": "Our website was founded in August 2005, originally named D&M Studio. "
+        "company": "Z&H Building",
+        "title": "Web Developer (Casual)",
+        "years": "Jan 2023 - Present",
+        "description": "Gathered high level requirements from stakeholders; Created prototyping to elicit and verify detailed level requirements; Produced flow chart in Microsoft Visio to demonstrate future-state business process; Developed Report Generation Systemfor the construction company, using Django + React. "
+      },
+      {
+        "company": "JOYY",
+        "title": "Product Manager (Internship)",
+        "years": "Nov 2021 - Feb 2022",
+        "description": "Planned and designed customer service functions, enabling seamless customer experience; Optimised channel deployment system, enhancing configuration, monitoring and analysis capabilities; Streamlined customer service processes, leveraging AI technologies; Produced product support documentations. "
       }
     ],
     "skills": [
