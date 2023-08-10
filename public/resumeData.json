@@ -92,23 +92,36 @@
     ],
     "skills": [
       {
-        "name": "Backend Development (Infrastructure, API, Database)",
-        "level": "95%"
-      },
-      {
-        "name": "Frontend Development (React, Angular)",
+        "name": "Front-End (Web) Development: ",
+
         "level": "85%"
       },
       {
-        "name": "Embeded Software development (C/C++)",
-        "level": "80%"
+        "name": "Backend Development: ",
+
+        "level": "70%"
       },
+
       {
-        "name": "Leadership & Management",
+        "name": "Cloud Computing: ",
+
         "level": "75%"
       },
       {
-        "name": "Passion & Eager to learn",
+        "name": "Leadership & Management: ",
+
+        "level": "85%"
+      },
+
+      {
+        "name": "Business & Data Analysis: ",
+
+        "level": "80%"
+      },
+
+      {
+        "name": "Passion & Eager to learn: ",
+
         "level": "100%"
       }
     ]
