@@ -72,10 +72,22 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a
+                  href="mailto:zhouzzhou0619@gmail.com"
+                  className="button btn project-btn"
+                  rel="noopener noreferrer"
+                  onClick={e => {
+                    e.preventDefault()
+                    window.open("mailto:zhouzzhou0619@gmail.com", "_blank")
+                    setTimeout(() => {
+                      window.location.href = window.location.href // 重定向回当前页面
+                    }, 1000) // 延时 1 秒
+                  }}
+                >
+                  <i className="fa fa-envelope"></i>Email
                 </a>
-                <a href={github} className="button btn github-btn">
+
+                <a href={github} className="button btn github-btn" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>
