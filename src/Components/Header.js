@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
-import Fade from "react-reveal";
+import React, { Component } from "react"
+import ParticlesBg from "particles-bg"
+import Fade from "react-reveal"
 
 class Header extends Component {
   render() {
-    if (!this.props.data) return null;
+    if (!this.props.data) return null
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
-    const name = this.props.data.name;
-    const description = this.props.data.description;
+    const project = this.props.data.project
+    const github = this.props.data.github
+    const name = this.props.data.name
+    const description = this.props.data.description
 
     return (
       <header id="home">
@@ -48,7 +48,7 @@ class Header extends Component {
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a href="https://course.cyberlark.com.au/" target="_blank" rel="noreferrer">
                 Courses
               </a>
@@ -57,7 +57,7 @@ class Header extends Component {
               <a href="http://daigou.cyberlark.com.au/" target="_blank" rel="noreferrer">
                 Shop
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
@@ -89,8 +89,8 @@ class Header extends Component {
           </a>
         </p>
       </header>
-    );
+    )
   }
 }
 
-export default Header;
+export default Header

@@ -14,43 +14,19 @@
       "line2": "City: Melbourne",
       "line3": "Country: Australia"
     },
-    "youtube": {
-      "english": {
-        "name": "David on Cloud",
-        "url": "https://www.youtube.com/channel/UCykMC_fzatQPcbun0VYG3YA"
-      },
-      "chinese": {
-        "name": "澳洲程序员大卫",
-        "url": "https://www.youtube.com/@aus-david"
-      }
-    },
-    "website": "http://cyberlark.com.au",
     "resumedownload": "./images/resume.pdf",
+
     "social": [
       {
-        "name": "twitter",
-        "url": "https://twitter.com/daiwei920",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/CyberlarkCode",
+        "url": "https://github.com/zhouzhou0619",
         "className": "fa fa-github"
       },
-      {
-        "name": "youtube-chinese",
-        "url": "https://www.youtube.com/channel/UCArZ1Su6EjdiEA0qrx1Pfqg",
-        "className": "fa fa-youtube-square"
-      },
+
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com",
+        "url": "https://www.linkedin.com/in/yihanjojo/",
         "className": "fa fa-linkedin-square"
-      },
-      {
-        "name": "toutiao",
-        "url": "https://www.ixigua.com/home/1521358670931997/",
-        "className": "fa fa-weibo"
       }
     ]
   },
@@ -93,35 +69,29 @@
     "skills": [
       {
         "name": "Front-End (Web) Development: ",
-
         "level": "85%"
       },
       {
         "name": "Backend Development: ",
-
         "level": "70%"
       },
 
       {
         "name": "Cloud Computing: ",
-
         "level": "75%"
       },
       {
         "name": "Leadership & Management: ",
-
         "level": "85%"
       },
 
       {
         "name": "Business & Data Analysis: ",
-
         "level": "80%"
       },
 
       {
         "name": "Passion & Eager to learn: ",
-
         "level": "100%"
       }
     ]
@@ -129,11 +99,11 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Course",
-        "description": "如何在澳洲找IT工作",
-        "category": "Course",
-        "image": "00.png",
-        "url": "https://course.cyberlark.com.au/courses/it"
+        "title": "Bees and bushfires website introduction",
+        "description": "A page on teamwork set against the backdrop of the Australian mountain fires.",
+        "category": "Project",
+        "image": "beesandbushfire.png",
+        "url": "https://youtu.be/f0zFjxLzNDw"
       },
       {
         "title": "Project",
