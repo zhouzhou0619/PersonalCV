@@ -1,0 +1,131 @@
+{
+  "main": {
+    "name": "Yihan Zhou",
+    "description": "Everyday is a new beginning",
+    "image": "profile.jpg",
+    "bio": "My name is Yihan Zhou. I’m a highly motivated Frontend developer with special interest in React.js, JavaScript, Java and Python. I’m proficient in handling technical problems using my experience in programming, databases, data structures and algorithms. I have experience in various front-end frameworks, allowing me to independently complete website application development. As part of my commitment to continuous improvement and professional development, I have been certified in React and Agile/Scrum. ",
+    "contactmessage": "Thank you for your feedback.",
+    "email": "zhouzzhou0619@gmail.com",
+    "phone": "(+61) 450691104",
+    "github": "https://github.com/zhouzhou0619",
+    "project": "https://github.com/zhouzhou0619",
+    "address": {
+      "line1": "Address: 380 Little Lonsdale St",
+      "line2": "City: Melbourne",
+      "line3": "Country: Australia"
+    },
+    "resumedownload": "./images/resume.pdf",
+
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/zhouzhou0619",
+        "className": "fa fa-github"
+      },
+
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/yihanjojo/",
+        "className": "fa fa-linkedin-square"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Technical Skills",
+    "education": [
+      {
+        "school": "Monash University",
+        "degree": "Master of Infomation Technology",
+        "graduated": "Mar 2021 - Dec 2022",
+        "description": ""
+      },
+      {
+        "school": "Northeast Electric Power University",
+        "degree": "Bachelor of Information and Computing Science",
+        "graduated": "Sep 2016 - Jun 2020",
+        "description": ""
+      },
+      {
+        "school": "Scrum Certification",
+        "degree": "Scrum Fundamentals Certified (SFC™) Certification",
+        "graduated": "Aug 2023",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Z&H Building",
+        "title": "Web Developer (Casual)",
+        "years": "Jan 2023 - Present",
+        "description": "Gathered high level requirements from stakeholders; Created prototyping to elicit and verify detailed level requirements; Produced flow chart in Microsoft Visio to demonstrate future-state business process; Developed Report Generation Systemfor the construction company, using Django + React. "
+      },
+      {
+        "company": "JOYY",
+        "title": "Product Manager (Internship)",
+        "years": "Nov 2021 - Feb 2022",
+        "description": "Planned and designed customer service functions, enabling seamless customer experience; Optimised channel deployment system, enhancing configuration, monitoring and analysis capabilities; Streamlined customer service processes, leveraging AI technologies; Produced product support documentations. "
+      }
+    ],
+    "skills": [
+      {
+        "name": "Front-End (Web) Development: ",
+        "level": "85%"
+      },
+      {
+        "name": "Backend Development: ",
+        "level": "70%"
+      },
+
+      {
+        "name": "Cloud Computing: ",
+        "level": "75%"
+      },
+      {
+        "name": "Leadership & Management: ",
+        "level": "85%"
+      },
+
+      {
+        "name": "Business & Data Analysis: ",
+        "level": "80%"
+      },
+
+      {
+        "name": "Passion & Eager to learn: ",
+        "level": "100%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Bees and bushfires website introduction",
+        "description": "A page on teamwork set against the backdrop of the Australian mountain fires.",
+        "category": "Project",
+        "image": "beesandbushfire.png",
+        "url": "https://youtu.be/f0zFjxLzNDw"
+      },
+      {
+        "title": "Click your favorite animal! Project",
+        "description": "Click on add animal, click on your favorite, the heart will be bigger!",
+        "category": "Project",
+        "image": "animal.png",
+        "url": "https://zhouzhou0619.github.io/Animal-interactive-widget/"
+      },
+      {
+        "title": "Budget Application",
+        "description": "Use this to calculate your budget!",
+        "category": "Project",
+        "image": "budget.png",
+        "url": "https://zhouzhou0619.github.io/budget-tracking-app/"
+      },
+      {
+        "title": "Todo List Application",
+        "description": "Manage your to-do list with the To-Do List app!",
+        "category": "Project",
+        "image": "todolist.png",
+        "url": "https://zhouzhou0619.github.io/react-to-do-list-application/"
+      }
+    ]
+  }
+}
