@@ -468,8 +468,6 @@ ul#nav li.current a {
   margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {
-  width: 200px;
-  height: 120px;
   background: #fff;
   overflow: hidden;
   position: relative;
