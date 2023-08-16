@@ -106,39 +106,25 @@
         "url": "https://youtu.be/f0zFjxLzNDw"
       },
       {
-        "title": "Project",
-        "description": "Investment Property Calculator",
+        "title": "Click your favorite animal! Project",
+        "description": "Click on add animal, click on your favorite, the heart will be bigger!",
         "category": "Project",
-        "image": "04.png",
-        "url": "https://property.cyberlark.com.au/"
+        "image": "animal.png",
+        "url": "https://zhouzhou0619.github.io/Animal-interactive-widget/"
       },
       {
-        "title": "Video",
-        "description": "How to use Investment Property Calculator",
-        "category": "Video",
-        "image": "01.png",
-        "url": "https://www.youtube.com/watch?v=W5I-eij2q6E"
+        "title": "Budget Application",
+        "description": "Use this to calculate your budget!",
+        "category": "Project",
+        "image": "budget.png",
+        "url": "https://zhouzhou0619.github.io/budget-tracking-app/"
       },
       {
-        "title": "Video",
-        "description": "How I passed the AWS Solutions Architect Professional Certification Exam",
-        "category": "Video",
-        "image": "02.png",
-        "url": "https://www.youtube.com/watch?v=qftrfxGou_E"
-      },
-      {
-        "title": "Video",
-        "description": "Amazon Interview Experience | All things you need to prepare amazon interview",
-        "category": "Video",
-        "image": "03.png",
-        "url": "https://www.youtube.com/watch?v=kg2sJgO3Esc"
-      },
-      {
-        "title": "Video",
-        "description": "如何使用澳洲房产投资计算器",
-        "category": "Video",
-        "image": "01-chinese.png",
-        "url": "https://www.youtube.com/watch?v=03WayI5czhY"
+        "title": "Todo List Application",
+        "description": "Manage your to-do list with the To-Do List app!",
+        "category": "Project",
+        "image": "todolist.png",
+        "url": "https://zhouzhou0619.github.io/react-to-do-list-application/"
       }
     ]
   }
