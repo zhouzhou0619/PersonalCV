@@ -14,9 +14,9 @@ jobs:
           node-version: 20
           cache: 'npm'
 
-      # 忽略 react-reveal 的 peer 依赖冲突
       - run: npm ci --legacy-peer-deps --no-audit --no-fund
 
-      # 这里会执行你 package.json 里的
-      # "build": "react-scripts --openssl-legacy-provider build"
-      - run: npm run build
+      - name: Build
+        run: npm run build
+        env:
+          CI: false     # 关键：别让 CRA 把 warning 当成 error
