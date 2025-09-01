@@ -55,16 +55,23 @@
     "work": [
       {
         "company": "Beijing Yueyou Network Technology, China",
-        "title": "Product Assistant (Casual)",
+        "title": "Product Assistant (Full-time)",
         "years": "Nov 2023 - May 2024",
-        "description": "Gathered high level requirements from stakeholders; Created prototyping to elicit and verify detailed level requirements; Produced flow chart in Microsoft Visio to demonstrate future-state business process; Developed Report Generation Systemfor the construction company, using Django + React. "
+        "description": "Supported the development and optimization of the company’s Demand-Side advertising platform (DSP) and ad slot management modules. Built and maintained dashboards to monitor metrics and enable data-driven decisions. Identified workflow logic issues and collaborated with engineers to deliver code-level fixes and platform iterations. Conducted user-path testing, documented defects, and proposed actionable improvements. Analyzed user behavior data to optimize UX and improve platform profitability."
+      },
+      {
+        "company": "Moxue Education Technology, Australia",
+        "title": "Web Developer (Internship)",
+        "years": "Apr 2023 - Jul 2023",
+        "description": "Contributed to the development of a Teacher Course Management System for course creation, scheduling, and progress tracking. Built dynamic pages with React.js and Next.js, ensuring scalability and performance. Developed reusable UI components using Ant Design and Tailwind CSS. Integrated APIs for authentication, data handling, and real-time updates. Supported debugging and release testing to ensure high-quality delivery."
       },
       {
         "company": "JOYY",
         "title": "Product Manager (Internship)",
-        "years": "Nov 2021 - Feb 2022",
-        "description": "Planned and designed customer service functions, enabling seamless customer experience; Optimised channel deployment system, enhancing configuration, monitoring and analysis capabilities; Streamlined customer service processes, leveraging AI technologies; Produced product support documentations. "
+        "years": "Oct 2021 - Jan 2022",
+        "description": "Collaborated with cross-functional teams to enhance the HAGO social platform. Utilized SQL to track events and user journeys, detecting drop-offs and abnormal behaviors to inform fixes. Performed path testing and bug reporting, providing engineering teams with prioritized issue logs. Assisted in the design, optimization, and UAT of an AI-based auto-reply tool, improving response efficiency."
       }
+      
     ],
     "skills": [
       {
