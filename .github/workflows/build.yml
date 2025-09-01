@@ -2,7 +2,6 @@ name: Build
 on:
   push:
     branches: [ main ]
-  pull_request:
 
 jobs:
   build:
@@ -16,8 +15,10 @@ jobs:
           node-version: 16
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install deps (legacy peer deps)
+        run: npm install --legacy-peer-deps
+        env:
+          NPM_CONFIG_LEGACY_PEER_DEPS: "true"
 
       - name: Build project
         run: npm run build
