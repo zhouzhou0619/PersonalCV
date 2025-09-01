@@ -1132,3 +1132,44 @@ footer .social-links li:first-child {
 .github-btn {
   background-color: #34495e !important;
 }
+
+#volunteer {
+  background: #ebeeee;           /* 保留灰底就留这行；想紫色就删掉或改色 */
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+#volunteer h1 {
+  font: 15px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #95a3a3;
+}
+
+/* 卡片不再被 200x120 裁切，图片完整显示 */
+#volunteer .portfolio-item .item-wrap {
+  width: auto;
+  height: auto;
+  background: transparent;
+  overflow: visible;
+  box-shadow: none;
+}
+#volunteer .portfolio-item .item-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;             /* 想要直角就删掉 */
+}
+
+/* 关闭悬浮遮罩/图标（即使结构里不存在，也兜底） */
+#volunteer .portfolio-item .overlay,
+#volunteer .portfolio-item .link-icon {
+  display: none !important;
+}
+
+/* 与 projects 一样的列间距 */
+#volunteer-wrapper .columns {
+  margin-bottom: 36px;
+}

@@ -5,30 +5,28 @@ const Volunteer = ({ data = [] }) => {
     <section id="volunteer">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>VOLUNTEER</h1>
+          <h1>VOLUNTEER HIGHLIGHTS</h1>
 
           <div id="volunteer-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-            {data.map((item, i) => (
-              <div key={i} className="columns portfolio-item">
-                <div className="item-wrap">
-                  {item.url ? (
-                    <a href={item.url} target="_blank" rel="noreferrer" title={item.title}>
+            {data.map((item, i) => {
+              const src = `${process.env.PUBLIC_URL}/images/volunteer/${item.image}`;
+              const Img = <img alt={item.title || "volunteer"} src={src} />;
 
-                      <img alt={item.title} src={`${process.env.PUBLIC_URL}/images/volunteer/${item.image}`} />
-                    </a>
-                  ) : (
-                    <img alt={item.title} src={`${process.env.PUBLIC_URL}/images/volunteer/${item.image}`} />
-                  )}
-                  {item.title ? (
-                    <div style={{ padding: "10px", textAlign: "center" }}>
-                      <h5 style={{ margin: 0 }}>{item.title}</h5>
-                    </div>
-                  ) : null}
+              return (
+                <div key={i} className="columns portfolio-item">
+                  <div className="item-wrap">
+                    {item.url ? (
+                      <a href={item.url} target="_blank" rel="noreferrer" title={item.title}>
+                        {Img}
+                      </a>
+                    ) : (
+                      Img
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
-
         </div>
       </div>
     </section>
