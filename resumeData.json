@@ -3,18 +3,17 @@
     "name": "Yihan Zhou",
     "description": "Everyday is a new beginning",
     "image": "profile.jpg",
-    "bio": "My name is Yihan Zhou. I’m a highly motivated Frontend developer with special interest in React.js, JavaScript, Java and Python. I’m proficient in handling technical problems using my experience in programming, databases, data structures and algorithms. I have experience in various front-end frameworks, allowing me to independently complete website application development. As part of my commitment to continuous improvement and professional development, I have been certified in React and Agile/Scrum. ",
-    "contactmessage": "Thank you for your feedback.",
+    "bio": "Hi, I’m Yihan (Jojo) Zhou, a results-driven Web Developer and aspiring Data Analyst based in Perth.\nI have solid experience in front-end development using React, Next.js, Tailwind CSS, and Ant Design, and I’ve also worked on API integration and data visualization with tools like SQL, Tableau, and Power BI.\nMy background spans product support and analysis, from building responsive applications to optimizing user journeys and processes.\nCurrently, I’m completing my Professional Year Program while sharpening my data analysis skills, with a goal of combining technical expertise and analytical thinking to deliver practical, data-driven solutions.",
     "email": "zhouzzhou0619@gmail.com",
     "phone": "(+61) 450691104",
     "github": "https://github.com/zhouzhou0619",
     "project": "https://github.com/zhouzhou0619",
     "address": {
-      "line1": "Address: 380 Little Lonsdale St",
-      "line2": "City: Melbourne",
+      "line1": "State: Western Australia",
+      "line2": "City: Perth 6000",
       "line3": "Country: Australia"
     },
-    "resumedownload": "./images/resume.pdf",
+    "resumedownload": "./resume/YihanZhou_Resume.pdf",
 
     "social": [
       {
@@ -34,6 +33,12 @@
     "skillmessage": "Technical Skills",
     "education": [
       {
+        "school": "National Institute Of Technology",
+        "degree": "IT Professional Year Program",
+        "graduated": "Dec 2024 - Dec 2025",
+        "description": ""
+      },
+      {
         "school": "Monash University",
         "degree": "Master of Infomation Technology",
         "graduated": "Mar 2021 - Dec 2022",
@@ -44,27 +49,29 @@
         "degree": "Bachelor of Information and Computing Science",
         "graduated": "Sep 2016 - Jun 2020",
         "description": ""
-      },
-      {
-        "school": "Scrum Certification",
-        "degree": "Scrum Fundamentals Certified (SFC™) Certification",
-        "graduated": "Aug 2023",
-        "description": ""
       }
+      
     ],
     "work": [
       {
-        "company": "Z&H Building",
-        "title": "Web Developer (Casual)",
-        "years": "Jan 2023 - Present",
-        "description": "Gathered high level requirements from stakeholders; Created prototyping to elicit and verify detailed level requirements; Produced flow chart in Microsoft Visio to demonstrate future-state business process; Developed Report Generation Systemfor the construction company, using Django + React. "
+        "company": "Beijing Yueyou Network Technology, China",
+        "title": "Product Assistant (Full-time)",
+        "years": "Nov 2023 - May 2024",
+        "description": "Supported the development and optimization of the company’s Demand-Side advertising platform (DSP) and ad slot management modules. Built and maintained dashboards to monitor metrics and enable data-driven decisions. Identified workflow logic issues and collaborated with engineers to deliver code-level fixes and platform iterations. Conducted user-path testing, documented defects, and proposed actionable improvements. Analyzed user behavior data to optimize UX and improve platform profitability."
+      },
+      {
+        "company": "Moxue Education Technology, Australia",
+        "title": "Web Developer (Internship)",
+        "years": "Apr 2023 - Jul 2023",
+        "description": "Contributed to the development of a Teacher Course Management System for course creation, scheduling, and progress tracking. Built dynamic pages with React.js and Next.js, ensuring scalability and performance. Developed reusable UI components using Ant Design and Tailwind CSS. Integrated APIs for authentication, data handling, and real-time updates. Supported debugging and release testing to ensure high-quality delivery."
       },
       {
         "company": "JOYY",
         "title": "Product Manager (Internship)",
-        "years": "Nov 2021 - Feb 2022",
-        "description": "Planned and designed customer service functions, enabling seamless customer experience; Optimised channel deployment system, enhancing configuration, monitoring and analysis capabilities; Streamlined customer service processes, leveraging AI technologies; Produced product support documentations. "
+        "years": "Oct 2021 - Jan 2022",
+        "description": "Collaborated with cross-functional teams to enhance the HAGO social platform. Utilized SQL to track events and user journeys, detecting drop-offs and abnormal behaviors to inform fixes. Performed path testing and bug reporting, providing engineering teams with prioritized issue logs. Assisted in the design, optimization, and UAT of an AI-based auto-reply tool, improving response efficiency."
       }
+      
     ],
     "skills": [
       {
