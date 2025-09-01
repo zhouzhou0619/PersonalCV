@@ -9,18 +9,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Use Node 16
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
           cache: 'npm'
 
-      - name: Install deps (legacy peer deps)
-        run: npm install --legacy-peer-deps
-        env:
-          NPM_CONFIG_LEGACY_PEER_DEPS: "true"
+      # 忽略 react-reveal 的 peer 依赖冲突
+      - run: npm ci --legacy-peer-deps --no-audit --no-fund
 
-      - name: Build project
-        run: npm run build
-        #env:
-          #NODE_OPTIONS: --openssl-legacy-provider
+      # 这里会执行你 package.json 里的
+      # "build": "react-scripts --openssl-legacy-provider build"
+      - run: npm run build
