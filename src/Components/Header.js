@@ -48,6 +48,13 @@ class Header extends Component {
               </a>
             </li>
 
+            <li>
+              <a className="smoothscroll" href="#volunteer">
+                Volunteer
+                </a>
+            </li>
+
+
             {/* <li>
               <a href="https://course.cyberlark.com.au/" target="_blank" rel="noreferrer">
                 Courses
